@@ -1,0 +1,90 @@
+ul.payment-icons{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: block;
+        height: 25px;
+        width: 38px;
+        background-image: url("../../icons/payment-icons/icon-visa.svg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0 20px 0 0;
+
+        &:first-of-type {
+            margin-left: 0;
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+        &.visa {
+            background-image: url("../../icons/payment-icons/icon-visa.svg");
+        }
+
+        &.mastercard {
+            background-image: url("../../icons/payment-icons/icon-mastercard.svg");
+        }
+
+        &.maestro {
+            background-image: url("../../icons/payment-icons/icon-maestro.svg");
+        }
+
+        &.klarna {
+            background-image: url("../../icons/payment-icons/icon-klarna.svg");
+            height: 25px;
+        }
+
+        &.paypal {
+            background-image: url("../../icons/payment-icons/icon-paypal.svg");
+        }
+
+        &.applepay {
+            background-image: url("../../icons/payment-icons/icon-applepay.svg");
+        }
+
+        &.googlepay {
+            background-image: url("../../icons/payment-icons/icon-gpay.svg");
+        }
+
+        &.americanexpress {
+            background-image: url("../../icons/payment-icons/icon-amex.svg");
+        }
+
+        &.giro {
+            background-image: url("../../icons/payment-icons/icon-giropay.svg");
+            height: 25px;
+        }
+
+        &.blik {
+            background-image: url("../../icons/payment-icons/icon-blik.svg");
+        }
+
+        &.evri {
+            background-image: url("../../icons/payment-icons/icon-evri.svg");
+        }
+
+        &.dotpay {
+            background-image: url("../../icons/payment-icons/icon-dotpay.svg");
+        }
+
+        &.carteban {
+            background-image: url("../../icons/payment-icons/icon-cartesbancaires.svg");
+        }
+
+        &.bancontact {
+            background-image: url("../../icons/payment-icons/icon-bancontact.svg");
+            height: 25px;
+        }
+
+        &.ideal {
+            background-image: url("../../icons/payment-icons/icon-ideal.svg");
+            height: 25px;
+        }
+    }
+}

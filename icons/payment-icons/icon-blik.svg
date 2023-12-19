@@ -1,0 +1,30 @@
+<svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2503_6788)">
+<rect width="37.7143" height="24" rx="3" fill="white"/>
+<g clip-path="url(#clip1_2503_6788)">
+<path d="M38 0H-1V24H38V0Z" fill="url(#paint0_linear_2503_6788)"/>
+<path d="M17.7034 4.79309H15.0588V19.7754H17.7034V4.79309Z" fill="white"/>
+<path d="M22.6103 9.85156H19.9657V19.7753H22.6103V9.85156Z" fill="white"/>
+<path d="M34.4632 19.7754L30.4893 14.5235L34.1446 9.85162H31.0221L27.5172 14.3843V4.79309H24.8726V19.7754H27.5172V14.6808L31.0221 19.7754H34.4632Z" fill="white"/>
+<path d="M8.3192 9.73821C7.46018 9.73821 6.65214 9.9573 5.94606 10.3414V4.79309H3.30145V14.8135C3.30145 17.6166 5.54841 19.8888 8.32047 19.8888C11.0925 19.8888 13.3395 17.6166 13.3395 14.8135C13.3395 12.0104 11.0925 9.73821 8.32047 9.73821H8.3192ZM8.3192 17.2132C7.00773 17.2132 5.94606 16.1384 5.94606 14.8135C5.94606 13.4886 7.009 12.4138 8.3192 12.4138C9.62939 12.4138 10.6923 13.4886 10.6923 14.8135C10.6923 16.1384 9.62939 17.2132 8.3192 17.2132Z" fill="white"/>
+<path d="M10.9014 8.82056C12.2036 8.82056 13.2592 7.75308 13.2592 6.43628C13.2592 5.11948 12.2036 4.052 10.9014 4.052C9.59916 4.052 8.54352 5.11948 8.54352 6.43628C8.54352 7.75308 9.59916 8.82056 10.9014 8.82056Z" fill="url(#paint1_radial_2503_6788)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2503_6788" x1="18.5" y1="24" x2="18.5" y2="0" gradientUnits="userSpaceOnUse">
+<stop stop-color="#262626"/>
+<stop offset="1"/>
+</linearGradient>
+<radialGradient id="paint1_radial_2503_6788" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8.98322 3.92312) scale(7.7299 7.81656)">
+<stop stop-color="#FF0000"/>
+<stop offset="0.49" stop-color="#E83E49"/>
+<stop offset="1" stop-color="#FF00FF"/>
+</radialGradient>
+<clipPath id="clip0_2503_6788">
+<rect width="37.7143" height="24" rx="3" fill="white"/>
+</clipPath>
+<clipPath id="clip1_2503_6788">
+<rect width="39" height="24" fill="white" transform="translate(-1)"/>
+</clipPath>
+</defs>
+</svg>

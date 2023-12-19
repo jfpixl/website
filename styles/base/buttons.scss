@@ -1,0 +1,118 @@
+$btn-border-radius: 22px;
+$btn-padding: 1.2rem 2.5rem;
+$btn-small-padding: 0.7rem 1.6rem;
+$btn-font-size: 1.6rem;
+$btn-line-height: 2rem;
+
+$btn-primary-bg: #15884C;
+$btn-primary-clr: #fff;
+$btn-primary-outline-clr: #fff;
+$btn-primary-border-clr: transparent;
+$btn-primary-shadow-clr: #3577FF;
+
+$btn-secondary-bg: #fff;
+$btn-secondary-clr: #15884C;
+$btn-secondary-outline-clr: #fff;
+$btn-secondary-border-clr: #15884C;
+$btn-secondary-shadow-clr: #3577FF;
+
+@mixin button-primary {
+    border-radius: $btn-border-radius;
+    border: 1px solid $btn-primary-border-clr;
+    font-size: $btn-font-size;
+    line-height: $btn-line-height;
+    padding: $btn-padding;
+
+    color: $btn-primary-clr;
+    background-color: $btn-primary-bg;
+    cursor: pointer;
+
+    outline-color: $btn-primary-outline-clr;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-offset: 0;
+    display: inline-block;
+    text-decoration: none;
+
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:focus {
+        -webkit-box-shadow: 0px 0px 0px 3px $btn-primary-shadow-clr;
+        -moz-box-shadow: 0px 0px 0px 3px $btn-primary-shadow-clr;
+        box-shadow: 0px 0px 0px 3px $btn-primary-shadow-clr;
+    }
+
+    &:active {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    &.small {
+        padding: $btn-small-padding;
+    }
+
+}
+
+@mixin button-secondary {
+    border-radius: $btn-border-radius;
+    font-size: $btn-font-size;
+    line-height: $btn-line-height;
+    font-weight: 500 ;
+    padding: $btn-padding;
+    background-color: $btn-secondary-bg;
+    color: $btn-secondary-clr ;
+    border: 1px solid $btn-secondary-border-clr;
+    font-style: normal;
+    cursor: pointer;
+
+    outline-style: solid ;
+    outline-width: 1px ;
+    outline-offset: 0 ;
+    outline-color: transparent;
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none ;
+    }
+
+    &:focus {
+        -webkit-box-shadow: 0px 0px 0px 3px $btn-secondary-shadow-clr;
+        -moz-box-shadow: 0px 0px 0px 3px $btn-secondary-shadow-clr;
+        box-shadow: 0px 0px 0px 3px $btn-secondary-shadow-clr;
+        outline-offset: 0px ;
+        outline-color: #fff ;
+    }
+
+    &:active {
+        -webkit-box-shadow: none ;
+        -moz-box-shadow: none ;
+        box-shadow: none ;
+    }
+
+    &.small {
+        padding: $btn-small-padding;
+    }
+
+}
+
+/* buttons */
+a.button:any-link,
+button {
+    @include button-primary;
+}
+
+button:disabled,
+button:disabled:hover {
+    background-color: var(--overlay-background-color);
+    cursor: unset;
+}
+
+a.button.secondary,
+button.secondary {
+    @include button-secondary;
+}

@@ -1,14 +1,106 @@
-footer {
-  padding: 2rem;
-  background-color: var(--overlay-background-color);
-  font-size: var(--body-font-size-s);
+:root {
+  --footer-bg: var(--clr-grey);
 }
 
-footer .footer {
-  max-width: 1200px;
-  margin: auto;
+.footer-wrapper {
+  background-color: var(--footer-bg);
 }
-
-footer .footer p {
+.footer-wrapper .section {
+  padding-left: calc((100vw - 1440px) / 2);
+  padding-right: calc((100vw - 1440px) / 2);
+}
+.footer-wrapper .section > div {
+  max-width: auto;
   margin: 0;
+}
+.footer-wrapper .columns-wrapper {
+  max-width: 1440px;
+}
+.footer-wrapper .section {
+  border-bottom: 1px solid #D6D6D6;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 10rem;
+  padding-top: 8rem;
+}
+.newsletter p,
+.newsletter h2 {
+  margin-bottom: 2rem;
+}
+.newsletter input {
+  min-width: 405px;
+  margin-bottom: 2rem;
+}
+.newsletter label {
+  display: none;
+}
+
+.free-delivery {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.free-delivery .material-symbols-outlined {
+  font-size: 4rem;
+}
+.free-delivery h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.free-delivery p {
+  margin-bottom: 2rem;
+}
+.free-delivery .columns > div {
+  justify-content: space-between;
+}
+.free-delivery .columns > div > div {
+  max-width: 36rem;
+}
+
+.copyright-container,
+.footer-links {
+  padding: 20px 0;
+}
+.copyright-container ul,
+.footer-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.copyright-container ul li,
+.footer-links ul li {
+  margin-bottom: 5px;
+}
+.copyright-container ul li:last-of-type,
+.footer-links ul li:last-of-type {
+  margin-bottom: 0;
+}
+.copyright-container a:any-link,
+.footer-links a:any-link {
+  text-decoration: none;
+  color: #4F4F4F;
+  font-weight: 600;
+}
+.copyright-container a:hover,
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.copyright-container ul {
+  display: flex;
+}
+.copyright-container ul li {
+  margin-left: 25px;
 }

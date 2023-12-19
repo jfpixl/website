@@ -1,0 +1,72 @@
+ul.payment-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+ul.payment-icons li {
+  display: block;
+  height: 25px;
+  width: 38px;
+  background-image: url("../../icons/payment-icons/icon-visa.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0 20px 0 0;
+}
+ul.payment-icons li:first-of-type {
+  margin-left: 0;
+}
+ul.payment-icons li:last-of-type {
+  margin-right: 0;
+}
+ul.payment-icons li.visa {
+  background-image: url("../../icons/payment-icons/icon-visa.svg");
+}
+ul.payment-icons li.mastercard {
+  background-image: url("../../icons/payment-icons/icon-mastercard.svg");
+}
+ul.payment-icons li.maestro {
+  background-image: url("../../icons/payment-icons/icon-maestro.svg");
+}
+ul.payment-icons li.klarna {
+  background-image: url("../../icons/payment-icons/icon-klarna.svg");
+  height: 25px;
+}
+ul.payment-icons li.paypal {
+  background-image: url("../../icons/payment-icons/icon-paypal.svg");
+}
+ul.payment-icons li.applepay {
+  background-image: url("../../icons/payment-icons/icon-applepay.svg");
+}
+ul.payment-icons li.googlepay {
+  background-image: url("../../icons/payment-icons/icon-gpay.svg");
+}
+ul.payment-icons li.americanexpress {
+  background-image: url("../../icons/payment-icons/icon-amex.svg");
+}
+ul.payment-icons li.giro {
+  background-image: url("../../icons/payment-icons/icon-giropay.svg");
+  height: 25px;
+}
+ul.payment-icons li.blik {
+  background-image: url("../../icons/payment-icons/icon-blik.svg");
+}
+ul.payment-icons li.evri {
+  background-image: url("../../icons/payment-icons/icon-evri.svg");
+}
+ul.payment-icons li.dotpay {
+  background-image: url("../../icons/payment-icons/icon-dotpay.svg");
+}
+ul.payment-icons li.carteban {
+  background-image: url("../../icons/payment-icons/icon-cartesbancaires.svg");
+}
+ul.payment-icons li.bancontact {
+  background-image: url("../../icons/payment-icons/icon-bancontact.svg");
+  height: 25px;
+}
+ul.payment-icons li.ideal {
+  background-image: url("../../icons/payment-icons/icon-ideal.svg");
+  height: 25px;
+}

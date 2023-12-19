@@ -1,0 +1,31 @@
+:root {
+    /* colors */
+    --link-color: #035fe6;
+    --link-hover-color: #136ff6;
+    --background-color: #fff;
+    --overlay-background-color: #eee;
+    --highlight-background-color: #ccc;
+    --text-color: #1a1a1a;
+    --clr-grey: #F6F6F6;
+
+
+    /* fonts */
+    --body-font-family: "proxima-nova", roboto-fallback;
+    --heading-font-family: var(--body-font-family);
+    --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+
+    /* body sizes */
+    --body-font-size: 1.6rem;
+
+    /* heading sizes */
+    --heading-font-size-xxl: 4rem;
+    --heading-font-size-xl: 2.4rem;
+    --heading-font-size-l: 2.4rem;
+    --heading-font-size-m: 2.4rem;
+    --heading-font-size-s: 2.4px;
+    --heading-font-size-xs: 2.4px;
+
+    /* nav height */
+    --nav-height: 64px;
+
+}

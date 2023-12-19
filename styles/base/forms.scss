@@ -1,0 +1,103 @@
+// forms
+$label_color: var(--text-color);
+
+$error_color: #E42828;
+$input__border-clr: #d6d6d6;
+$input__border: 1px solid $input__border-clr;
+
+$input__color: #4F4F4F;
+$input__bg: #FFFFFF;
+
+$input__radius: 10px;
+$input__height: auto;
+$input__padding: 1.2rem 1.3rem;
+
+// hover
+$input__border--hover-clr: #3577FF;
+$input__bg--hover: #fff;
+
+// focus
+$input__border--foucs-clr: #3577FF;
+$input__bg--focus: white;
+$input__box-shadow: 0px 0px 0px 2px rgba(139, 177, 255, 1);
+
+$placeholder-clr: #D6D6D6;
+
+::placeholder {
+    color: $placeholder-clr;
+    font-style: italic;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: $label_color;
+    line-height: 1.2em;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type=datetime],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=url] {
+    height: $input__height;
+    padding-top: $input__padding  ;
+    padding-bottom: $input__padding  ;
+    color: $input__color;
+    background: $input__bg;
+    border: $input__border;
+    border-radius: $input__radius;
+
+    &::-webkit-input-placeholder
+    &::placeholder,
+    &:-ms-input-placeholder {
+        color: $placeholder-clr;
+        font-style: italic;
+        font-weight: 400;
+        opacity: 1;
+    }
+}
+
+input,
+textarea,
+select {
+    color: $input__color;
+    background: $input__bg;
+    font-family: inherit;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 1.1rem 1.3rem;
+    border: $input__border;
+    border-radius: $input__radius;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+    background-color: $input__bg--hover  ;
+    border-color: $input__border--hover-clr  ;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    background-color: $input__bg--focus;
+    border-color: $input__border--foucs-clr  ;
+    box-shadow: $input__box-shadow;
+}
+
+input:disabled,
+select:disabled,
+button:disabled,
+textarea:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    background: #F0F0F0;
+}
