@@ -51,6 +51,8 @@ input[type=url] {
     background: $input__bg;
     border: $input__border;
     border-radius: $input__radius;
+    -webkit-appearance: none;
+    appearance: none;
 
     &::-webkit-input-placeholder
     &::placeholder,
@@ -83,6 +85,7 @@ select:hover {
 }
 
 input:focus,
+input:active,
 textarea:focus,
 select:focus,
 input:focus-visible,
@@ -91,6 +94,7 @@ select:focus-visible {
     background-color: $input__bg--focus;
     border-color: $input__border--foucs-clr  ;
     box-shadow: $input__box-shadow;
+    outline: none;
 }
 
 input:disabled,

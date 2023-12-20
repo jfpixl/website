@@ -140,6 +140,8 @@ input[type=url] {
   background: #FFFFFF;
   border: 1px solid #d6d6d6;
   border-radius: 10px;
+  -webkit-appearance: none;
+  appearance: none;
 }
 select::-webkit-input-placeholder select::placeholder, select:-ms-input-placeholder,
 select::-webkit-input-placeholder input[type=text]::placeholder,
@@ -257,6 +259,7 @@ select:hover {
 }
 
 input:focus,
+input:active,
 textarea:focus,
 select:focus,
 input:focus-visible,
@@ -265,6 +268,7 @@ select:focus-visible {
   background-color: white;
   border-color: #3577FF;
   box-shadow: 0px 0px 0px 2px rgb(139, 177, 255);
+  outline: none;
 }
 
 input:disabled,
